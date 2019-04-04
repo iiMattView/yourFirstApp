@@ -15,6 +15,8 @@ namespace yourFirstApp
         public Form1()
         {
             InitializeComponent();
+
+            lbl_helloUser.Text = "\nHallo " + Environment.UserName + ",\n gratulation zu deiner ersten selbstkompilierten C# App";
         }
     }
 }
